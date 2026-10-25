@@ -30,8 +30,7 @@ def quick_sort(iterable, key=None, reverse=False):
     order = list(range(len(items)))
     rng = random.Random()
 
-    # Iterative 3-way partitioning (Dijkstra) with a random pivot:
-    # no recursion limit issues, and O(n) on runs of equal keys.
+
     stack = [(0, len(order) - 1)]
     while stack:
         lo, hi = stack.pop()
