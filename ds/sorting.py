@@ -1,4 +1,3 @@
-"""Bubble sort and quick sort. Both return a new list, like sorted()."""
 
 import random
 

@@ -1,4 +1,3 @@
-"""Dynamic array over a fixed-size buffer that doubles/halves its capacity."""
 
 
 class DynamicArray:

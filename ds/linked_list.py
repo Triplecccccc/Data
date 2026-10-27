@@ -1,4 +1,3 @@
-"""Singly linked list with a tail pointer."""
 
 
 class _Node:

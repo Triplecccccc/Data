@@ -1,4 +1,3 @@
-"""AVL tree: self-balancing binary search tree mapping keys to values."""
 
 _MISSING = object()
 
