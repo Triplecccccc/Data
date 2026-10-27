@@ -1,5 +1,3 @@
-"""Double-ended queue on a circular buffer."""
-
 
 class Deque:
     _MIN_CAPACITY = 8
