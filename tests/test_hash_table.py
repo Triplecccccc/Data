@@ -1,6 +1,6 @@
 import random
 import pytest
-from data_structures.hash_table import HashTable
+from ds.hash_table import HashTable
 
 
 def test_empty():

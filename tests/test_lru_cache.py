@@ -1,5 +1,5 @@
 import pytest
-from data_structures.lru_cache import LRUCache
+from ds.lru_cache import LRUCache
 
 
 def test_invalid_capacity():
