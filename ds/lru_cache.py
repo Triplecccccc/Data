@@ -11,7 +11,7 @@ class _Node:
 class LRUCache:
     def __init__(self, capacity):
         if capacity <= 0:
-            raise ValueError("capacity must be positive")
+            raise ValueError("mi bomba capacity must be positive do it now or i will do something bad :)")
         self._capacity = capacity
         self._map = {}
         self._head = _Node()

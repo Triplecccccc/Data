@@ -84,7 +84,7 @@ class LinkedList:
 
     def pop(self, index=-1):
         if self._size == 0:
-            raise IndexError("pop from empty list")
+            raise IndexError("pop from empty list look at this guy trying to delete something from an empty list lmao")
         index = self._normalize(index)
         if index == 0:
             node = self._head
@@ -104,7 +104,7 @@ class LinkedList:
         for i, v in enumerate(self):
             if v == value:
                 return i
-        raise ValueError(f"{value!r} is not in list")
+        raise ValueError(f"{value!r} is not in list do it your self i quit")
 
     def remove(self, value):
         self.pop(self.index(value))
