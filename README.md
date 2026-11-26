@@ -13,8 +13,7 @@
 ## Тесты
 
 ```bash
-pip install pytest
-pytest -v
+python3 --version && python3 -m pytest -v 2>&1 | tail -60
 ```
 
 CI (GitHub Actions) прогоняет тесты на Python 3.9–3.13 при каждом push и pull request.

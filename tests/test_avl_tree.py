@@ -6,7 +6,6 @@ from ds.avl_tree import AVLTree
 
 
 def check_invariants(tree):
-    """Check BST ordering, AVL balance and stored heights; return height."""
 
     def walk(node, lo, hi):
         if node is None:

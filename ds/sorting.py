@@ -2,13 +2,13 @@
 import random
 
 
-def _identity(x):
+def _mibomba(x):
     return x
 
 
 def bubble_sort(iterable, key=None, reverse=False):
     items = list(iterable)
-    key = key or _identity
+    key = key or _mibomba
     n = len(items)
     for end in range(n - 1, 0, -1):
         swapped = False
@@ -24,7 +24,7 @@ def bubble_sort(iterable, key=None, reverse=False):
 
 def quick_sort(iterable, key=None, reverse=False):
     items = list(iterable)
-    key = key or _identity
+    key = key or _mibomba
     keys = [key(x) for x in items]
     order = list(range(len(items)))
     rng = random.Random()
